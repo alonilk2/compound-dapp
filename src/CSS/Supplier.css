@@ -1,0 +1,220 @@
+.header {
+  background: rgb(54, 0, 180);
+  background: linear-gradient(
+    276deg,
+    rgba(54, 0, 180, 1) 0%,
+    rgba(0, 185, 255, 1) 100%
+  );
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+  font-weight: 100;
+}
+.navbar {
+  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+  flex-direction: row;
+}
+.status {
+  min-height: 400px;
+}
+.box-container {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  margin: 10%;
+  padding: 5%;
+  font-size: 20px;
+  color: white;
+}
+.box-container .title {
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.box-container .value {
+  font-size: 80px;
+  color: white;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.metamask {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 30px;
+  padding: 0.2em 1em;
+  color: white;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.metamask:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.install {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 30px;
+  padding: 0.2em 1em;
+  color: white;
+  background-color: rgba(255, 0, 50, 0.7);
+  transition: 0.3s;
+}
+.connect {
+  font-weight: 100;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 0% !important;
+}
+.metamask-logo {
+  margin: 0em 0.2em;
+}
+.servicebox-container {
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 15px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  margin: 10%;
+  padding: 5%;
+  font-size: 20px;
+  color: black;
+  /* max-width: 50%; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+}
+.services {
+  min-height: 800px;
+}
+.servicebox-container .title {
+  font-size: 25px;
+  color: black;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.supply {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  padding: 0.2em 1em;
+  background-color: transparent;
+  transition: 0.3s;
+  margin: auto;
+  background-color: #005cd4;
+  color: white;
+}
+.modal-dialog {
+  max-width: 1000px !important;
+}
+.modal-body {
+  padding: 5% 10%;
+}
+.modal-header {
+  border-bottom: 0px !important;
+}
+.modal-footer {
+  border-top: 0px !important;
+}
+.middle-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+p {
+  font-size: 20px;
+}
+body {
+  background: #f5f5f5;
+}
+
+.card {
+  position: relative;
+  -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 6px;
+  height: 500px;
+  overflow: hidden;
+  width: 350px;
+  margin: 40px auto;
+}
+.shimmerBG {
+  animation-duration: 2.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: shimmer;
+  animation-timing-function: linear;
+  background: #ddd;
+  background: linear-gradient(to right, #f6f6f6 8%, #d7d8e0 18%, #f6f6f6 33%);
+  background-size: 1200px 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1200px 0;
+  }
+  100% {
+    background-position: 1200px 0;
+  }
+}
+
+.media {
+  height: 200px;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
+.title-line {
+  height: 24px;
+  width: 100%;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
+
+.content-line {
+  border-radius: 8px;
+  height: 17px;
+}
+
+.end {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.m-t-24 {
+  margin-top: 24px;
+}
+.input-amount,
+.input-group-text {
+  border-radius: 30px;
+  font-size: 30px;
+}
+.input-group-text {
+  justify-content: center;
+}
+.input-amount {
+  width: 60%;
+  padding-left: 8%;
+  font-size: 50px;
+}
+.services-row {
+  padding: 0% 50px;
+}
