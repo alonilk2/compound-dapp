@@ -19,7 +19,7 @@ let cToken = ''
 const contractAddress = '0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5'
 const cTokenAddress = '0x5d3a536e4d6dbd6114cc1ead35777bab948e3643' // cDai
 const provider = new ethers.providers.JsonRpcProvider('http://localhost:8545')
-const provider1 = new ethers.providers.Web3Provider(window.ethereum, 'any')
+let provider1 = ''
 
 function Homepage () {
   const [currentAccount, setCurrentAccount] = useState(null)
@@ -49,6 +49,7 @@ function Homepage () {
       console.log("Wallet exists! We're ready to go!")
       console.log(ethereum)
     }
+    provider1 = new ethers.providers.Web3Provider(window.ethereum, 'any')
     await provider1.send('eth_requestAccounts', [])
     const signer = provider1.getSigner()
     let address = await signer.getAddress()
