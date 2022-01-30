@@ -11,7 +11,6 @@ const {
   cErcAbi,
   erc20Abi
 } = require('../contracts.json')
-const provider1 = new ethers.providers.Web3Provider(window.ethereum, 'any')
 const cTokenAddress = '0x5d3a536e4d6dbd6114cc1ead35777bab948e3643' // cDai
 let cToken = ''
 function CompoundReturnBorrow (props) {
@@ -47,6 +46,7 @@ function CompoundReturnBorrow (props) {
       console.log("Wallet exists! We're ready to go!")
     }
     try {
+      const provider1 = new ethers.providers.Web3Provider(window.ethereum, 'any')
       let res = await provider1.send('eth_requestAccounts', [])
       const signer = provider1.getSigner()
 
