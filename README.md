@@ -1,6 +1,6 @@
 # Compound DApp - A single-page web application for Compound DeFi Protocol services
 
-![Compound Dapp](https://alonilk2.github.io/map1/compound.png)
+![Compound Dapp](https://alonilk2.github.io/map1/compound.jpg)
 
 
 ## [Enter Compound DApp Demo](https://compound-dapp.herokuapp.com/)
