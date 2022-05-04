@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/compound-dapp/static/css/main.364e3d94.chunk.css",
+    "main.js": "/compound-dapp/static/js/main.901ad110.chunk.js",
+    "main.js.map": "/compound-dapp/static/js/main.901ad110.chunk.js.map",
+    "runtime-main.js": "/compound-dapp/static/js/runtime-main.094ba5e6.js",
+    "runtime-main.js.map": "/compound-dapp/static/js/runtime-main.094ba5e6.js.map",
+    "static/js/2.628f127e.chunk.js": "/compound-dapp/static/js/2.628f127e.chunk.js",
+    "static/js/2.628f127e.chunk.js.map": "/compound-dapp/static/js/2.628f127e.chunk.js.map",
+    "static/js/3.0c24f3d3.chunk.js": "/compound-dapp/static/js/3.0c24f3d3.chunk.js",
+    "static/js/3.0c24f3d3.chunk.js.map": "/compound-dapp/static/js/3.0c24f3d3.chunk.js.map",
+    "index.html": "/compound-dapp/index.html",
+    "static/css/main.364e3d94.chunk.css.map": "/compound-dapp/static/css/main.364e3d94.chunk.css.map",
+    "static/js/2.628f127e.chunk.js.LICENSE.txt": "/compound-dapp/static/js/2.628f127e.chunk.js.LICENSE.txt",
+    "static/media/MetaMask_Logo.4368e45a.svg": "/compound-dapp/static/media/MetaMask_Logo.4368e45a.svg",
+    "static/media/dai.png": "/compound-dapp/static/media/dai.196bd5b1.png",
+    "static/media/ethereum-logo.337d054f.png": "/compound-dapp/static/media/ethereum-logo.337d054f.png",
+    "static/media/logo.6ce24c58.svg": "/compound-dapp/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.094ba5e6.js",
+    "static/js/2.628f127e.chunk.js",
+    "static/css/main.364e3d94.chunk.css",
+    "static/js/main.901ad110.chunk.js"
+  ]
+}
